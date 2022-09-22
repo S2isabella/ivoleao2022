@@ -4,10 +4,11 @@ body {
 
 #t70show {
     width: 100%;
+    height: 350%;
 }
 
 h1 {
-    text-align:center
+    text-align: center;
 }
 
 p { 
