@@ -8,7 +8,7 @@
     <body>
         <header>
             <div class="caixa">
-                <h1><img src="logo.png" class="logo"> </h1>
+                <h1><img src="logo.png" alt="Logo That 70s Show"> </h1>
 
                 <nav>
                     <ul>
@@ -23,44 +23,67 @@
         <main>
             <form>
                 <label for="nomesobrenome">Nome e sobrenome</label>
-                <input type="text" id="nomesobrenome" class="input-padrao">
+                <input type="text" id="nomesobrenome" class="input-padrao" required>
 
                 <label for="email">Email</label>
-                <input type="text" id="email" class="input-padrao">
+                <input type="text" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
 
                 <label for="telefone">Telefone</label>
-                <input type="text" id="telefone" class="input-padrao">
+                <input type="text" id="telefone" class="input-padrao" required placeholder="(XX) XXXX-XXXX">
 
                 <label for="mensagem">Mensagem</label>
                 <textarea cols="70" rows="10" id="mensagem" class="input-padrao"></textarea>
 
-                <div>
-                    <p>Como prefere o nosso contato?</p>
+                <fieldset>
+                    <legend>Como prefere o nosso contato?</legend>
                     <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
 
                     <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
 
-                    <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">WhatsApp</label>
+                    <label for="radio-whatsapp" checked><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">WhatsApp</label>
     
-                </div>
+                </fieldset>
 
-                <div> 
-                    <p>Qual horário prefere que entre em contato?</p>
+                <fieldset> 
+                    <legend>Qual horário prefere que entre em contato?</legend>
                     <select>
                         <option>Manhã</option>
                         <option>Tarde</option>
                         <option>Noite</option>
                     </select>
-                </div>
+                </fieldset>
             
-                <label class="checkbox"><input type="checkbox"> Gostaria de receber nossas novidades por email?</label>
+                <label class="checkbox" checked><input type="checkbox"> Gostaria de receber nossas novidades por email?</label>
 
-                <input type="submit" value="enviar formulário"
+                <input type="submit" value="enviar formulário" class="enviar">
             </form>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Hórario</th>
+                    </tr>
+                </thead>
+                <tbody>    
+                    <tr>
+                        <td>Segunda</td>
+                        <td>7h - 12h</td>
+                    </tr>
+                    <tr>
+                        <td>Quarta</td>
+                        <td>7h - 12h</td>
+                    </tr>
+                    <tr>
+                        <td>Sexta</td>
+                        <td>7h - 12h</td>
+                    </tr>
+                </tbody>
+            </table>
         </main>
 
         <footer>
-            <img src="logo.png" class="logo">
+            <img src="logo.png" alt="Logo That 70s Show">
             <p class="copyright">&copy; Copyright That 70s Show - 2022</p>
         </footer>
     </body>
