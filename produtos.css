@@ -1,5 +1,5 @@
 header {
-    background: #8ce08c;
+    background: #7390df;
     padding: 20px 0;
 }
 
@@ -42,9 +42,7 @@ nav a {
     margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
-    border-color: #000000;
-    border-width: 2px;
-    border-style: solid;
+    border: 2px solid #000000;
 }
 
 .produtos h2 {
