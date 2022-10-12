@@ -27,6 +27,10 @@ nav a {
     font-size: 22px;
     text-decoration: none;
 }
+nav a:hover {
+    color: #7be98d;
+    text-decoration: underline;
+}
 
 .produtos {
     width: 940px;
@@ -43,6 +47,7 @@ nav a {
     padding: 30px 20px;
     box-sizing: border-box;
     border: 2px solid #000000;
+    border-radius: 10px;
 }
 
 .produtos h2 {
