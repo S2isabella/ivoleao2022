@@ -28,7 +28,7 @@ nav a {
     text-decoration: none;
 }
 nav a:hover {
-    color: #7be98d;
+    color: #75e475;
     text-decoration: underline;
 }
 
@@ -48,6 +48,18 @@ nav a:hover {
     box-sizing: border-box;
     border: 2px solid #000000;
     border-radius: 10px;
+}
+
+.produto li:hover {
+    border-color: #7cee7c;
+}
+
+.produto li:active {
+    border-color: #088c19;
+}
+
+.produto li:hover h2 {
+    font-size: 34px;
 }
 
 .produtos h2 {
