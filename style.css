@@ -190,7 +190,7 @@ td, th {
 
 .mapa {
     padding: 3em 0;
-    background: linear-gradient(#FEFEFE, #94a1eb) all;
+    background: linear-gradient(#FEFEFE, #94a1eb)
 }
 
 .mapa-conteudo {
