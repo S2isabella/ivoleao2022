@@ -155,12 +155,23 @@ td, th {
 /*css página inicial*/
 .banner {
     width: 350px;
-    height: 250px;
-    margin: 0 0 1em;
+    height: 350px;
 }
 
 .titulo-principal {
     text-align: center;
     font-size: 2em;
     margin: 0 0 1em;
+}
+
+.principal p {
+    margin: 0 0 1em;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
 }
