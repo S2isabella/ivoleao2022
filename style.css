@@ -154,7 +154,8 @@ td, th {
 
 /*css página inicial*/
 .banner {
-    width: 100px;
+    width: 350px;
+    height: 250px;
 }
 
 .titulo-principal {
