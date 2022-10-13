@@ -176,10 +176,6 @@ td, th {
     margin: 0 auto;
 }
 
-.principal::before {
-    content: "✿";
-}
-
 .principal p {
     margin: 0 0 1em;
 }
@@ -193,12 +189,8 @@ td, th {
 }
 
 .mapa {
-    padding: 3em 0;
+    padding: 3em 0 0;
     background: linear-gradient(#FEFEFE, #94a1eb);
-}
-
-.mapa::before {
-    content: "✿";
 }
 
 .mapa-conteudo {
