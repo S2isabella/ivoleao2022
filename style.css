@@ -160,7 +160,7 @@ td, th {
 .banner {
     width: 350px;
     height: 350px;
-    box-shadow: 10px 10px 30px #4d70e2;
+    box-shadow: 10px 10px 30px #5c7adf;
 }
 
 .titulo-principal {
@@ -208,4 +208,18 @@ td, th {
     padding: 3em 0;
     width: 560px;
     margin: 0 auto;
+}
+
+@media screen and (max-width:480px) {
+    .caixa, .principal, .mapa-conteudo, .video {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
 }
