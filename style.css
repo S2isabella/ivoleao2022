@@ -160,6 +160,7 @@ td, th {
 .banner {
     width: 350px;
     height: 350px;
+    box-shadow: 10px 10px 30px #4d70e2;
 }
 
 .titulo-principal {
